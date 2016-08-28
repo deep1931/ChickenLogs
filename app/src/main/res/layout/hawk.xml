@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearLayoutFragment"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:divider="#37d947"
+    android:dividerPadding="5dp"
+    android:showDividers="end">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="HAWK"
+            android:id="@+id/txtview1"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ID"
+            android:id="@+id/txtviewid" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextid"
+            android:text="1111-9999"
+            android:editable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight(g)"
+            android:id="@+id/txtviewweight" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextweight"
+            android:text="0-1000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eggs Laid"
+            android:id="@+id/textViewEggs" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextEggs"
+            android:text="0-4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grain Eaten(g)"
+            android:id="@+id/textViewGrain" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextGrain"
+            android:text="0-100" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water(ml)"
+            android:id="@+id/textViewWater" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextWater"
+            android:text="0-200" />
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="Save Log Entry"
+            android:id="@+id/btnLog"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="Show Log Entry"
+            android:id="@+id/btnShow"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_weight="3.12"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_nav_prev"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/ic_action_goleft"
+            android:id="@+id/btn_nav_prev"
+            android:typeface="monospace"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_nav_home"
+            android:drawableLeft="@drawable/ic_action_home"
+            android:id="@+id/btn_nav_home"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="@string/btn_nav_next"
+            android:drawableLeft="@drawable/ic_action_goright"
+            android:id="@+id/btn_nav_next"
+            android:typeface="monospace"
+            android:shadowColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

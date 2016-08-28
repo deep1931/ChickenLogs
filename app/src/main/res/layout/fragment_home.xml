@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnFoghorn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Foghorn" />
+
+        <Button
+            android:id="@+id/btnTweety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tweety" />
+
+        <Button
+            android:id="@+id/btnHawk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hawk" />
+
+        <Button
+            android:id="@+id/btnLittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Little" />
+
+        <Button
+            android:id="@+id/btnBertha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bertha" />
+
+
+    </LinearLayout>
+</FrameLayout>

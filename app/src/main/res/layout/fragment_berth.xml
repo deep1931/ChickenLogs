@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:divider="#37d947"
+    android:dividerPadding="5dp"
+    android:showDividers="end"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:weightSum="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="BERTH"
+            android:id="@+id/txtview1"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="ID"
+            android:id="@+id/txtviewid" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etId"
+            android:editable="true"
+            android:hint="1111-9999"
+            android:inputType="number"
+            android:maxLength="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight(g)"
+            android:id="@+id/txtviewweight" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etWeight"
+            android:hint="0-1000"
+            android:inputType="number"
+            android:maxLength="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eggs Laid"
+            android:id="@+id/textViewEggs" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEggs"
+            android:hint="0-4"
+            android:inputType="number"
+            android:maxLength="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grain Eaten(g)"
+            android:id="@+id/textViewGrain" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etGrain"
+            android:hint="0-100"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water(ml)"
+            android:id="@+id/textViewWater" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etWater"
+            android:hint="0-200"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="Save Log Entry"
+            android:id="@+id/btnLog"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:text="Show Log Entry"
+            android:id="@+id/btnShow"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

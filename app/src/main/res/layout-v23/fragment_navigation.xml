@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context="au.edu.cqu.mylayouts.NavigationFragment"
+    android:orientation="horizontal"
+    android:background="#33a1ba"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_nav_prev"
+        android:drawableLeft="@drawable/ic_action_goleft"
+        android:id="@+id/btn_nav_prev"
+        android:typeface="monospace" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_nav_home"
+        android:drawableLeft="@drawable/ic_action_home"
+        android:id="@+id/btn_nav_home"
+        android:typeface="monospace" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_nav_next"
+        android:drawableLeft="@drawable/ic_action_goright"
+        android:id="@+id/btn_nav_next"
+        android:typeface="monospace" />
+</LinearLayout>
